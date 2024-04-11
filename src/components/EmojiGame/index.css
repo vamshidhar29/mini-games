@@ -1,0 +1,415 @@
+.emojiGame-bg {
+  background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+  min-height: 100vh;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.back-btn-eg {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  align-self: flex-start;
+  color: #334155;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.rules-card-eg {
+  background-color: #ffffff33;
+  width: 900px;
+  height: 700px;
+  border: 3px solid #ffffff30;
+  border-radius: 12px;
+  display: flex;
+  padding: 40px;
+}
+
+.rules-container-eg {
+  display: flex;
+  flex-direction: column;
+}
+
+.emoji-image-eg {
+  width: 380px;
+  height: 400px;
+  color: Light / blue-gray / 700;
+  margin-right: 25px;
+  align-self: center;
+}
+
+.head-rules-eg {
+  font-family: 'Roboto';
+  font-size: 32px;
+  color: #334155;
+  font-weight: 700;
+  align-self: center;
+}
+
+.rules-li-eg {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #475569;
+  margin-bottom: 10px;
+}
+
+.playing-btn-rules-eg {
+  background-color: #475569;
+  width: 129px;
+  height: 48px;
+  border: none;
+  border-radius: 12px;
+  padding: 12px, 24px, 12px, 24px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: 'Roboto';
+  align-self: center;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 991px) {
+  .emojiGame-bg {
+    background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+    min-height: 100vh;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .back-btn-eg {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    align-self: flex-start;
+    color: #334155;
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  .rules-card-eg {
+    background-color: #ffffff33;
+    width: 352px;
+    min-height: 969px;
+    border: 3px solid #ffffff30;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .rules-container-eg {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .emoji-image-eg {
+    width: 255px;
+    height: 213px;
+    color: Light / blue-gray / 700;
+    margin-right: 25px;
+    align-self: center;
+  }
+
+  .head-rules-eg {
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: #334155;
+    font-weight: 700;
+    align-self: center;
+  }
+
+  .rules-li-eg {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    color: #475569;
+    margin-bottom: 10px;
+  }
+
+  .playing-btn-rules-eg {
+    background-color: #475569;
+    width: 101px;
+    height: 32px;
+    border: none;
+    border-radius: 8px;
+    padding: 8px, 16px, 8px, 16px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Roboto';
+    align-self: center;
+    cursor: pointer;
+  }
+
+  .won-body-eg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    min-height: 100vh;
+  }
+
+  .won-card-eg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff33;
+    border: 3px solid #ffffff30;
+    width: 264px;
+    min-height: 50px;
+    border-radius: 12px;
+  }
+
+  .won-card-text-container-eg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    order: 2;
+  }
+
+  .won-text-eg {
+    font-size: 32px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: #334155;
+  }
+
+  .bestScore-text-eg {
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #334155;
+  }
+
+  .score-card-won-loose-eg {
+    color: #523fff;
+    font-size: 24px;
+    font-family: 'Roboto';
+    font-weight: 700;
+  }
+
+  .playAgain-btn-eg {
+    background-color: #ffce27;
+    height: 32px;
+    width: 90px;
+    color: #3d3d3d;
+    font-size: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .won-card-img-eg {
+    height: 100px;
+    width: 140px;
+    order: 1;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .back-btn-eg {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    align-self: flex-start;
+    margin-left: 130px;
+    color: #334155;
+    font-weight: 500;
+    font-size: 20px;
+  }
+}
+
+.playing-bg-eg {
+  background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+  min-height: 100vh;
+  font-style: 'Roboto';
+}
+
+.nav-playing-eg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 100px;
+  background-color: #ffffff33;
+}
+
+.nav-img-cont-playing-eg {
+  display: flex;
+  align-items: center;
+}
+
+.nav-img-play-eg {
+  height: 48px;
+  width: 48px;
+  margin-right: 20px;
+}
+
+.nav-head-play-eg {
+  font-size: 24px;
+  font-weight: 700;
+  color: #334155;
+}
+
+.score-ele-eg {
+  font-size: 16px;
+  font-weight: 500;
+  color: #334155;
+}
+
+.body-play-cont-eg {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.back-rules-cont-play-eg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.back-btn-playing-eg {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  align-self: flex-start;
+  color: #334155;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.rules-btn-eg {
+  font-size: 12px;
+  font-weight: 500;
+  width: 62px;
+  height: 32px;
+  border: 2px solid #334155;
+  color: #334155;
+  padding: 8px, 16px, 8px, 16px;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.ul-playing-eg {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.btn-li-playing-eg {
+  width: 255px;
+  height: 212px;
+  border-radius: 24px;
+  border: 3px solid #ffffff30;
+  background-color: #ffffff33;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.img-li-play-eg {
+  width: 100px;
+  height: 100px;
+}
+
+.won-body-eg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.won-card-eg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff33;
+  border: 3px solid #ffffff30;
+  width: 900px;
+  height: 550px;
+  border-radius: 24px;
+}
+
+.won-card-text-container-eg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.won-text-eg {
+  font-size: 48px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: #334155;
+}
+
+.bestScore-text-eg {
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #334155;
+}
+
+.score-card-won-loose-eg {
+  color: #523fff;
+  font-size: 48px;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+
+.playAgain-btn-eg {
+  background-color: #ffce27;
+  height: 40px;
+  width: 145px;
+  color: #3d3d3d;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.won-card-img-eg {
+  height: 480px;
+  width: 373px;
+  margin-left: 20px;
+}
+
+.rules-playing-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 500px;
+}
+
+.close-btn-playing-rules {
+  align-self: flex-end;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}

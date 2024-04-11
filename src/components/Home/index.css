@@ -1,0 +1,64 @@
+.home-container {
+  background-image: linear-gradient(to right, #834d9b, #d04ed6);
+  padding: 50px;
+  min-height: 100vh;
+}
+
+.head-home {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+}
+
+.cards-container-home {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards-home {
+  background-color: #ffffff;
+  width: 554px;
+  height: 280px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.image-emoji-home {
+  width: 224px;
+  height: 232px;
+  color: Light / blue-gray / 700;
+}
+
+.head-memory-matrix-home {
+  font-family: 'Bree Serif';
+  font-weight: 400;
+  font-size: 24px;
+  color: #334155;
+}
+
+.image-memory-home {
+  height: 176px;
+  width: 236px;
+}
+
+.image-rock-home {
+  height: 176px;
+  width: 197px;
+}
+
+.image-animals-home {
+  height: 232px;
+  width: 434px;
+}
+
+.link-home {
+  text-decoration: none;
+}
